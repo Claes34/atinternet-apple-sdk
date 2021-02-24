@@ -557,8 +557,9 @@ class TechnicalContext: NSObject {
                     
                     if let rt = radioType {
                         if #available(iOS 14.1, *) {
-                            // These radio types are not available in iOS 14.0 and 14.0.1 (causes crashes) although it seems like they are
-                            if rt == CTRadioAccessTechnologyNRNSA || rt == CTRadioAccessTechnologyNR {
+                            // TO SUPPORT XCODE11, WE USE THE VALUES DIRECTLY INSTEAD OF UNDEFINED STATIC LET THAT EXISTS ONLY
+                            // WITH THE LATEST SDK
+                            if rt == "CTRadioAccessTechnologyNRNSA" || rt == "CTRadioAccessTechnologyNR" {
                                 return ConnexionType.fiveg
                             }
                         }

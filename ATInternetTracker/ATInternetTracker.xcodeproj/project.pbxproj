@@ -389,6 +389,7 @@
 		8EC45F06206A471E00B0EC52 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
 		8EF627C421357BD700EF6902 /* ATInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4461D3541C500702747 /* ATInternet.swift */; };
 		8EF627C521357BD700EF6902 /* ATInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4461D3541C500702747 /* ATInternet.swift */; };
+		A1D37BB925F677DE006735F9 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D37BB825F677DE006735F9 /* CryptoKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CC1FE8A72159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
 		CC1FE8A82159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
 		CC1FE8A92159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
@@ -652,6 +653,7 @@
 		8E7AD14320D2C834000FDB08 /* TrackerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TrackerBundle.bundle; path = Sources/TrackerBundle.bundle; sourceTree = "<group>"; };
 		8E9497E920D3F0890006872F /* ATBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBundle.swift; sourceTree = "<group>"; };
 		8EEBADC51DF5779200FD1CFD /* ATInternet-Apple-SDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "ATInternet-Apple-SDK.podspec"; path = "../../ATInternet-Apple-SDK.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D37BB825F677DE006735F9 /* CryptoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CryptoKit.framework; sourceTree = DEVELOPER_DIR; };
 		CC1FE8A62159FE4D006FE401 /* Medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medium.swift; sourceTree = "<group>"; };
 		CC1FE8AF215A0DFC006FE401 /* LiveMedium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMedium.swift; sourceTree = "<group>"; };
 		CC2DC3D4227826B2008A2B96 /* CartAwaitingPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAwaitingPayment.swift; sourceTree = "<group>"; };
@@ -688,6 +690,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D37BB925F677DE006735F9 /* CryptoKit.framework in Frameworks */,
 				CCF9B3D9214F77CA00235A77 /* AVFoundation.framework in Frameworks */,
 				CCF9B3D7214F77C400235A77 /* Security.framework in Frameworks */,
 				CCF9B3D5214F77BC00235A77 /* CFNetwork.framework in Frameworks */,
@@ -942,6 +945,7 @@
 		8E2E9AB01DAF861D00ED4D98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1D37BB825F677DE006735F9 /* CryptoKit.framework */,
 				CCF9B3D8214F77CA00235A77 /* AVFoundation.framework */,
 				CCF9B3D6214F77C400235A77 /* Security.framework */,
 				CCF9B3D4214F77BC00235A77 /* CFNetwork.framework */,

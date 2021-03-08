@@ -389,7 +389,6 @@
 		8EC45F06206A471E00B0EC52 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
 		8EF627C421357BD700EF6902 /* ATInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4461D3541C500702747 /* ATInternet.swift */; };
 		8EF627C521357BD700EF6902 /* ATInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4461D3541C500702747 /* ATInternet.swift */; };
-		A1D37BB925F677DE006735F9 /* CryptoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D37BB825F677DE006735F9 /* CryptoKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CC1FE8A72159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
 		CC1FE8A82159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
 		CC1FE8A92159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
@@ -690,7 +689,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1D37BB925F677DE006735F9 /* CryptoKit.framework in Frameworks */,
 				CCF9B3D9214F77CA00235A77 /* AVFoundation.framework in Frameworks */,
 				CCF9B3D7214F77C400235A77 /* Security.framework in Frameworks */,
 				CCF9B3D5214F77BC00235A77 /* CFNetwork.framework in Frameworks */,

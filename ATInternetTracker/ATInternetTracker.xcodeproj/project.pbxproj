@@ -389,6 +389,12 @@
 		8EC45F06206A471E00B0EC52 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A5BE1D36215D00702747 /* ATReachability.swift */; };
 		8EF627C421357BD700EF6902 /* ATInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4461D3541C500702747 /* ATInternet.swift */; };
 		8EF627C521357BD700EF6902 /* ATInternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F47A4461D3541C500702747 /* ATInternet.swift */; };
+		A1D37BD525F78584006735F9 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37BD425F78584006735F9 /* AES256.swift */; };
+		A1D37BD625F7AAA7006735F9 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37BD425F78584006735F9 /* AES256.swift */; };
+		A1D37BD725F7AAA8006735F9 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37BD425F78584006735F9 /* AES256.swift */; };
+		A1D37BD825F7AAA9006735F9 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37BD425F78584006735F9 /* AES256.swift */; };
+		A1D37BD925F7AAA9006735F9 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37BD425F78584006735F9 /* AES256.swift */; };
+		A1D37BDA25F7AAAA006735F9 /* AES256.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D37BD425F78584006735F9 /* AES256.swift */; };
 		CC1FE8A72159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
 		CC1FE8A82159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
 		CC1FE8A92159FE4D006FE401 /* Medium.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FE8A62159FE4D006FE401 /* Medium.swift */; };
@@ -652,6 +658,7 @@
 		8E7AD14320D2C834000FDB08 /* TrackerBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TrackerBundle.bundle; path = Sources/TrackerBundle.bundle; sourceTree = "<group>"; };
 		8E9497E920D3F0890006872F /* ATBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATBundle.swift; sourceTree = "<group>"; };
 		8EEBADC51DF5779200FD1CFD /* ATInternet-Apple-SDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = "ATInternet-Apple-SDK.podspec"; path = "../../ATInternet-Apple-SDK.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D37BD425F78584006735F9 /* AES256.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES256.swift; sourceTree = "<group>"; };
 		CC1FE8A62159FE4D006FE401 /* Medium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medium.swift; sourceTree = "<group>"; };
 		CC1FE8AF215A0DFC006FE401 /* LiveMedium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveMedium.swift; sourceTree = "<group>"; };
 		CC2DC3D4227826B2008A2B96 /* CartAwaitingPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartAwaitingPayment.swift; sourceTree = "<group>"; };
@@ -797,6 +804,7 @@
 				4F47A4591D3542A400702747 /* Tracker.swift */,
 				CCB990A025488A220059D252 /* Crypt.swift */,
 				CCC4374825AF223300D3815F /* Privacy.swift */,
+				A1D37BD425F78584006735F9 /* AES256.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1303,6 +1311,7 @@
 				CC704B5221B6AFF500114A86 /* GeneratedEvents.swift in Sources */,
 				4F47A4821D3542A400702747 /* Sender.swift in Sources */,
 				CC704B9821B6D21000114A86 /* UpdateCart.swift in Sources */,
+				A1D37BD525F78584006735F9 /* AES256.swift in Sources */,
 				4F47A4D11D35446700702747 /* CustomTreeStructure.swift in Sources */,
 				4F47A5151D35446700702747 /* Screen.swift in Sources */,
 				CCC4374925AF223300D3815F /* Privacy.swift in Sources */,
@@ -1379,6 +1388,7 @@
 				4F47A4E71D35446700702747 /* InternalSearch.swift in Sources */,
 				4F47A4CB1D35446700702747 /* Cart.swift in Sources */,
 				4F47A50F1D35446700702747 /* Publisher.swift in Sources */,
+				A1D37BD725F7AAA8006735F9 /* AES256.swift in Sources */,
 				4F47A4841D3542A400702747 /* Sender.swift in Sources */,
 				CC2DC3D7227826B2008A2B96 /* CartAwaitingPayment.swift in Sources */,
 				4F47A4741D3542A400702747 /* Hit.swift in Sources */,
@@ -1479,6 +1489,7 @@
 				4F47A4EC1D35446700702747 /* LiveAudio.swift in Sources */,
 				4F47A4F81D35446700702747 /* MediaPlayer.swift in Sources */,
 				4F47A4711D3542A400702747 /* Dispatcher.swift in Sources */,
+				A1D37BD825F7AAA9006735F9 /* AES256.swift in Sources */,
 				4F47A4F41D35446700702747 /* Location.swift in Sources */,
 				4F47A5041D35446700702747 /* OnAppAd.swift in Sources */,
 				4F47A4611D3542A400702747 /* Buffer.swift in Sources */,
@@ -1537,6 +1548,7 @@
 				4F47A51A1D35446700702747 /* SelfPromotion.swift in Sources */,
 				4F47A4EE1D35446700702747 /* LiveVideo.swift in Sources */,
 				4F47A4C21D35446700702747 /* Audio.swift in Sources */,
+				A1D37BD625F7AAA7006735F9 /* AES256.swift in Sources */,
 				4F47A4831D3542A400702747 /* Sender.swift in Sources */,
 				CC2DC3D6227826B2008A2B96 /* CartAwaitingPayment.swift in Sources */,
 				CC704B7D21B6C8AA00114A86 /* DisplayProduct.swift in Sources */,
@@ -1645,6 +1657,7 @@
 				CCC4374D25AF223300D3815F /* Privacy.swift in Sources */,
 				4F47A83F1D3D192C00702747 /* Context.swift in Sources */,
 				4F47A8421D3D192C00702747 /* Hit.swift in Sources */,
+				A1D37BD925F7AAA9006735F9 /* AES256.swift in Sources */,
 				CCC9F5FE23B63A580055516B /* AVInsights.swift in Sources */,
 				8EF627C421357BD700EF6902 /* ATInternet.swift in Sources */,
 				8E3061E520A9945A00D433B0 /* DynamicRefresh.swift in Sources */,
@@ -1789,6 +1802,7 @@
 				4FF594221D3F61D20004D336 /* CustomObjectTests.swift in Sources */,
 				4FF594261D3F61E50004D336 /* GestureTests.swift in Sources */,
 				4FF5945C1D3F66A90004D336 /* OnAppAd.swift in Sources */,
+				A1D37BDA25F7AAAA006735F9 /* AES256.swift in Sources */,
 				4FF594461D3F66560004D336 /* Tracker.swift in Sources */,
 				4FF5944F1D3F668C0004D336 /* CustomObject.swift in Sources */,
 			);
